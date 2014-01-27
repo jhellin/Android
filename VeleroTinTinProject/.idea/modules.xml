@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/VeleroTinTin/VeleroTinTin.iml" filepath="$PROJECT_DIR$/VeleroTinTin/VeleroTinTin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VeleroTinTinProject.iml" filepath="$PROJECT_DIR$/VeleroTinTinProject.iml" />
+    </modules>
+  </component>
+</project>
+

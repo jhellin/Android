@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TabHost android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tabHost"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <TabWidget
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@android:id/tabs"
+        />
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@android:id/tabcontent"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/blog"
+            android:orientation="vertical"
+            android:paddingTop="80px"
+            >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100px"
+                android:text="Blog"
+                android:id="@+id/txt1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/singladura"
+            android:orientation="vertical"
+            android:paddingTop="80px"
+            >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100px"
+                android:text="Singladura"
+                android:id="@+id/txt2"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/noticias"
+            android:orientation="vertical"
+            android:paddingTop="80px"
+            >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="100px"
+                android:text="Noticas"
+                android:id="@+id/txt3"
+                />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</TabHost>
